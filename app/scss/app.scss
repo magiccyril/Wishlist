@@ -56,14 +56,13 @@ body {
 }
 
 #header {
-  @include grid-column(6);
-
   background: image-url('header_3.gif') no-repeat;
   height: image-height('header_3.gif');
 }
 
-.intro, .outro {
-  @include grid-column(6);
+.content {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
 }
 
 h1 {
@@ -71,20 +70,12 @@ h1 {
 }
 
 .hr {
-  @include grid-column(6);
-
   background: image-url('fulg.png') no-repeat center center;
   height: image-height('fulg.png');
   margin: 1rem 0 2rem;
 }
 
-.item {
-  @include grid-column(6);
-}
-
 #footer {
-  @include grid-column(6);
-
   background: image-url('header_1.gif') no-repeat;
   height: image-height('header_1.gif');
 }
